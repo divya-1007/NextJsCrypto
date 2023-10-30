@@ -1,0 +1,40 @@
+.card_style{
+    border-radius: 0.375rem;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.5)
+}
+select#frm-whatevers option {
+  background-color: rgb(30 31 37) !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+}
+
+
+.my_class{
+    margin: 0 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination-page-number {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 42px;
+  } 

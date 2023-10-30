@@ -1,0 +1,60 @@
+.rounded.overflow-hidden.pt-24.p-5.my-1.mx-1 {
+    position: relative;
+    background-image: url("https://dhuhacreative.illustraly.com/cryptolly/assets/media/images/sign-in/signin-v2-page-background.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    overflow: hidden !important;
+    flex-grow: 1 !important;
+    width: 100% !important;
+    height: inherit;
+    padding-left: 5rem ;
+    padding-top: 5rem;
+    z-index: -1;
+}
+
+.sign-in-banner .sign-in-banner__title {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    max-width: 30.625rem;
+    margin-right: 5rem;
+}
+.sign-in-banner .sign-in-banner__subtitle {
+    color: #E5E6ED;
+    max-width: 31rem;
+    margin-right: 5rem;
+}
+.sign-in-banner .sign-in-banner__illustration {
+    position: absolute;
+    display: block;
+    top: 16.5625rem;
+    left: 5rem;
+    width: 64.6525rem;
+}
+
+.mini-form .mini-form__input {
+    position: relative;
+    padding-right: 23.5rem;
+}
+.mini-form .mini-form__submit {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0.5rem;
+    margin: auto 0;
+    height: -moz-max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 1rem 2rem;
+    transition: none;
+    border-radius: 6.25rem;
+    font-family: "Sofia Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: linear-gradient(265.56deg, #1f698d -0.27%, #1E68F6 -0.26%, #FF5722 98.59%);
+}

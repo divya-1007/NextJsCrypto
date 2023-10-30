@@ -1,0 +1,74 @@
+.container.container--dashboard {
+    max-width: 90rem;
+    padding: 0 2.75rem;
+}
+
+.container--dashboard--exchange-v1 .dashboard__group--exchange-v1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.container--dashboard--exchange-v1 .dashboard__group--exchange-v1 .dashboard__group-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.standard-card--type-8-v2 {
+    background: none;
+    border-radius: 0.75rem;
+    font-family: "Graphik";
+}
+.container--dashboard--exchange-v1 .dashboard__group--exchange-v1 .dashboard__group-left .standard-card--type-8-v2 .standard-card__items {
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.standard-card--type-8-v2 .standard-card__container .standard-card__items {
+    gap: 1rem;
+    align-items: flex-start;
+}
+.card_style{
+    border-radius: 0.375rem;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.5)
+}
+
+select#frm-whatever option {
+    background-color: rgb(30 31 37) !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination-page-number {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 42px;
+  } 
+
+
+/* table.table-auto::-webkit-scrollbar{
+    display: none;
+} */
+ 
+  
